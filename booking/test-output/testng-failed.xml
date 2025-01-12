@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Booking Automation Suite]">
+  <test thread-count="5" name="Booking.com - Test(failed)">
+    <classes>
+      <class name="tests.TC01_CheckDatesDisplayedCorrectlyInDetailsPageAndHotelNameShownInReservation">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="loadConfig"/>
+          <include name="setupPages"/>
+          <include name="CheckDatesDisplayedCorrectlyInDetailsPageAndHotelNameShownInReservation"/>
+        </methods>
+      </class> <!-- tests.TC01_CheckDatesDisplayedCorrectlyInDetailsPageAndHotelNameShownInReservation -->
+    </classes>
+  </test> <!-- Booking.com - Test(failed) -->
+</suite> <!-- Failed suite [Booking Automation Suite] -->
